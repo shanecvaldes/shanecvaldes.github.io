@@ -10,10 +10,12 @@
 <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+<link href="https://fonts.cdnfonts.com/css/univers" rel="stylesheet">
 <link rel="stylesheet" href="css/site.css" />
 <script src="lib/jquery/dist/jquery.min.js"></script>
 <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/site.js"></script>
+
 <link rel="icon" href="favicon.ico" />
 </head>
 <body>
@@ -41,7 +43,7 @@
 						<li class="nav-item nav-black-bar py-1 px-4"><a
 							class="nav-link text-dark" href="professional.html">Professional</a></li>
 						<li class="nav-item py-1 px-4"><a class="nav-link text-dark"
-							href="gallary.html">Gallery</a></li>
+							href="gallery.html">Gallery</a></li>
 					</ul>
 				</div>
 			</div>
@@ -50,27 +52,29 @@
 	<!-- END HEADER -->
 	<div class="container">
 		<div class="row justify-content-center">
-			<h1>Here You Can Learn About Me! :)</h1>
+			<h1>About Me</h1>
 		</div>
-		<div class="row my-5">
-			<!-- Professional Statement -->
-			<div class="col-6 orange-blue-contrast text-left py-5 px-5">
-				<h2>A little about me</h2>
-				<p>Outside of programming, I have always enjoyed helping others.
-					Whether it be helping people on their code, or working with
-					teammates on the field. I have also always enjoyed math and
-					puzzles, and I enjoy learning about new things. The carousel to the
-					right shows some of the result I got on a personality test I took
-					on high5test.com.</p>
+		<!-- High 5 Test -->
+		<div class="row my-5 justify-content-between">
+
+			<div class="col-lg-6 col-sm-12 orange-blue-contrast text-left pt-2">
+				<h2>Personality Test</h2>
+				<p>&emsp;In highschool, I discovered that I enjoyed teaching,
+					helping, and working with others after I briefly worked with the A+
+					program tutoring kids. Whether it be helping people on their code,
+					or working with teammates on the field, I enjoy working with others
+					towards a common goal. Whether that goal may be to get better or to
+					learn something new, I find it hard not to enjoy interacting with
+					others and sharing new ideas. I took a personality test on
+					high5test.com, and I think that my result reflect this side of me.</p>
 			</div>
 
 			<!-- Strength and Resume -->
-			<div class="col-6 bg-dark container px-5">
+			<div class="col-lg-5 col-sm-12 bg-dark py-1">
 				<!-- Strengths -->
 				<div id="carouselExampleControls"
-					class="carousel slide carousel-fade h-100 w-100"
-					data-ride="carousel">
-					<div class="carousel-inner bg-dark">
+					class="carousel slide carousel-fade h-100" data-ride="carousel">
+					<div class="carousel-inner d-flex h-100">
 						<!-- Indicators -->
 						<ol class="carousel-indicators">
 							<li data-target="#carouselExampleCaptions" data-slide-to="0"
@@ -81,40 +85,37 @@
 							<li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
 						</ol>
 						<!-- Content -->
-						<div class="carousel-item active d-flex justify-content-center"
+						<div
+							class="carousel-item active d-flex justify-content-center align-self-center"
 							data-interval="3000">
-							<div class="h-100 py-5">
-								<img src="img/highfive/coach.png" class="img-responsive"
-									alt="Personal picture" />
-							</div>
+							<img src="img/highfive/coach.png" class="img-responsive w-100"
+								alt="Personal picture" />
+						</div>
+						<div
+							class="carousel-item d-flex justify-content-center align-self-center"
+							data-interval="3000">
+							<img src="img/highfive/problem-solver.png" alt="Personal picture"
+								class="w-100" />
 
 						</div>
-						<div class="carousel-item d-flex justify-content-center"
+						<div
+							class="carousel-item d-flex justify-content-center align-self-center"
 							data-interval="3000">
-							<div class="h-100 py-5">
-								<img src="img/highfive/problem-solver.png"
-									alt="Personal picture" />
-							</div>
+							<img src="img/highfive/philomath.png" alt="Personal picture"
+								class="w-100" />
+						</div>
+						<div
+							class="carousel-item d-flex justify-content-center align-self-center"
+							data-interval="3000">
+							<img src="img/highfive/strategist.png" alt="Personal picture"
+								class="w-100" />
 
 						</div>
-						<div class="carousel-item d-flex justify-content-center"
+						<div
+							class="carousel-item d-flex justify-content-center align-self-center"
 							data-interval="3000">
-							<div class="h-100 py-5">
-								<img src="img/highfive/philomath.png" alt="Personal picture" />
-							</div>
-						</div>
-						<div class="carousel-item d-flex justify-content-center"
-							data-interval="3000">
-							<div class="h-100 py-5">
-								<img src="img/highfive/strategist.png" alt="Personal picture" />
-							</div>
-
-						</div>
-						<div class="carousel-item d-flex justify-content-center"
-							data-interval="3000">
-							<div class="h-100 py-5">
-								<img src="img/highfive/catalyst.png" alt="Personal picture" />
-							</div>
+							<img src="img/highfive/catalyst.png" alt="Personal picture"
+								class="w-100" />
 
 						</div>
 					</div>
@@ -131,11 +132,66 @@
 				</div>
 			</div>
 		</div>
+		<!-- Baseball -->
+		<div class="row mb-5 justify-content-between">
+			<div class="col-lg-6 col-sm-12 orange-blue-contrast pt-2">
+				<h3>Work Ethic</h3>
+				<p>&emsp;I still remember my first pitch in the 4th grade, the
+					ball slamming against the trash can. That weekend I got a call from
+					coach that I would be pitching for the team. From then on I knew I
+					was in it, truly a part of something that would stick with me.
+					Everything from pitching, hitting, and fielding, being a competitor
+					made me fall in love with baseball. As the years went by, after
+					spending late nights taking lessons, and spending hours during the
+					day pitching against net or hitting off of coach, the foundation
+					for the work ethic that I have now would be cemented. When high
+					school came around I knew that baseball was something that I had to
+					work for, and it was something that I devoted myself to. From the
+					live hitting at 6 AM to the winter practices at 7 PM, I worked
+					hard. I spent hours after school everyday in the weight room, and
+					no matter how bad the weather was, I would spend even more hours in
+					the cages. When they took down the cages for the winter, I'd spend
+					hours practicing on the tennis courts instead. Through my hard
+					work, I learned what it truly meant to work towards something that
+					I love doing. While it never worked out in the end, I still pride
+					myself for sticking with it, through both the high's and the low's.</p>
+			</div>
+			<div class="col-lg-6 col-sm-12 align-self-center">
+				<img src="img/personal photos/baseball.jpg" alt="Baseball Photo"
+					class="w-100" />
+			</div>
+		</div>
+		<!-- Lab -->
+		<div class="row justify-content-between mb-5">
+
+			<div class="col-lg-5 col-sm-12 orange-blue-contrast pt-2">
+				<h3>Computer Science to Me</h3>
+				<p>
+					It's hard to single out what specifically I enjoy about computer
+					science. As someone who enjoys math and puzzles, analyzing data is
+					both interesting and fun to me. That said, this has applied to
+					several classes like computer architecture and programming classes.
+					On other hand, because of my experience in the arts and creating
+					content, I enjoy designing just as much. Regardless, I enjoy
+					working and collaborating with others. Whether that be helping
+					someone in a lab, or hopping on a zoom call to work on a project, I
+					enjoy being able to help my peers while also being able to learn
+					and share new ideas. <br><br> To the right is me and some of my
+					lab peers.
+				</p>
+			</div>
+			<div class="col-lg-6 col-sm-12">
+				<img src="img/personal photos/lab-photo.jpg" alt="Lab Photo"
+					class="w-100" />
+			</div>
+		</div>
 	</div>
 	<!-- Footer -->
-	<div class="container p-5 top">
+	<div class="w-100 top" style="height: 1px;"></div>
+	<div class="container p-5">
+
 		<div class="row">
-			<div class="container orange-blue-contrast col text-center">
+			<div class="orange-blue-contrast col-6 text-center">
 				<p>
 					<strong>Contact Me</strong>
 				</p>
@@ -143,21 +199,22 @@
 				<p>Email: shane.valdes11@gmail.com</p>
 				<p>School: scv566s@missouristate.edu</p>
 			</div>
-			<div class="container col text-center">
-				<strong>Social Accounts</strong>
-				<div class="container row px-1">
-					<div class="col">
-						<a href="https://www.instagram.com/shane.valdeseo/?next=%2F">
-							<img src="img/logos/instagram-logo.jpg" class="w-50"
-							alt="insta link" />
+			<div class="col-6 text-center">
+				<div class="row justify-content-center">
+					<strong>Social Accounts</strong>
+				</div>
+				<div class="row px-1 justify-content-center">
+					<div class="col-lg-6 col-sm-12">
+						<a href="https://www.instagram.com/shane.valdeseo/?next=%2F"
+							target="_blank"> <img src="img/logos/instagram-logo.jpg"
+							class="w-50" alt="insta link" />
 						</a>
 					</div>
-					<div class="col">
+					<div class="col-lg-6 col-sm-12">
 						<a
-							href="https://missouristate.joinhandshake.com/stu/users/33625430"><img
-							src="img/logos/handshake-logo.jpg" class="w-50"
-							alt="handshake link" /></a>
-
+							href="https://missouristate.joinhandshake.com/stu/users/33625430"
+							target="_blank"><img src="img/logos/handshake-logo.png"
+							class="w-50" alt="handshake link" /></a>
 					</div>
 				</div>
 			</div>

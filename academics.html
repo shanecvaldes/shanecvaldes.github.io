@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Work Skills</title>
+<title>Academics</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+<link href="https://fonts.cdnfonts.com/css/univers" rel="stylesheet">
 <link rel="stylesheet" href="css/site.css" />
 <script src="lib/jquery/dist/jquery.min.js"></script>
 <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -40,22 +41,22 @@
 						<li class="nav-item nav-black-bar py-1 px-4"><a
 							class="nav-link text-dark" href="professional.html">Professional</a></li>
 						<li class="nav-item py-1 px-4"><a class="nav-link text-dark"
-							href="gallary.html">Gallery</a></li>
+							href="gallery.html">Gallery</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 	</header>
 	<!-- END HEADER -->
-	<div class="container-fluid">
-		<div class="row pb-5 justify-content-center">
-			<h1>Here is my Current Academic Status</h1>
+	<div class="container-fluid justify-content-center">
+		<div class="row justify-content-center mb-5">
+			<h1>Academic Report</h1>
 		</div>
-		<div class="row mx-5">
+		<div class="row mx-5 justify-content-between">
 			<!-- Courses -->
-			<div class="col-8">
-				<div class="row container orange-blue-contrast">
-					<div class="col justify-content-left">
+			<div class="col-lg-6 col-sm-12 orange-blue-contrast mb-5">
+				<div class="row mb-5">
+					<div class="col text-left">
 						<h5>Previous Courses:</h5>
 						<ul>
 							<li>Computational Thinking</li>
@@ -67,7 +68,7 @@
 							<li>Discrete Mathematics</li>
 						</ul>
 					</div>
-					<div class="col">
+					<div class="col text-left">
 						<h5>Current Courses</h5>
 						<ul>
 							<li>Operating Systems</li>
@@ -77,39 +78,64 @@
 							<li>Principles of Macroeconomics</li>
 						</ul>
 					</div>
-
 				</div>
 			</div>
 			<!-- Enrollment -->
-			<div class="col orange-blue-contrast">
-				<h5>Enrollment Details:</h5> Bachelor of Science, Computer Science<br>
-				Minor in Mathematics<br> Certificate in Web Programming<br>
-				Honors College<h5>Scholarships and Achievements:</h5>
-				<ul>
-					<li>Dean's List 2021 - Present</li>
-					<li>Provost Scholarship 2021 - Present</li>
-				</ul>
+			<div class="col-lg-5 col-sm-12 orange-blue-contrast mb-5">
+				<div class="row">
+					<div class="col">
+						<h5>Enrollment Details:</h5>
+						<p>
+							Bachelor of Science, Computer Science<br> Minor in
+							Mathematics<br> Certificate in Web Programming<br>
+							Honors College<br>
+						</p>
+						<h5>Scholarships and Achievements:</h5>
+						<ul>
+							<li>Dean's List 2021 - Present</li>
+							<li>Provost Scholarship 2021 - Present</li>
+						</ul>
+					</div>
+					<div class="col">
+						<h5>Programming Skills:</h5>
+						<ul>
+							<li>Python ----- Intermediate</li>
+							<li>C++ -------- Intermediate</li>
+							<li>HTML ------- Intermediate</li>
+							<li>CSS -------- Intermediate</li>
+							<li>JS --------- Beginner</li>
+							<li>SQL -------- Beginner</li>
+
+						</ul>
+					</div>
+
+				</div>
+
 			</div>
 		</div>
-		<div class="row mx-5 my-5">
+		<div class="row mx-5 justify-content-between">
 			<!-- Programming Skills -->
-			<div class="col orange-blue-contrast">
-				<h5>Programming Languages:</h5>
-				<ul>
-					<li>Python ------ Intermediate</li>
-					<li>C++ --------- Intermediate</li>
-					<li>HTML -------- Intermediate</li>
-					<li>CSS --------- Intermediate</li>
-					<li>Javascript -- Beginner</li>
-					<li>SQL --------- Beginner</li>
-
-				</ul>
-				The carousel to the right shows some of the online certificate that
-				I have.<br> <a href="gallary.html"><button>Click
-						here to look at some of my personal projects!</button></a>
+			<div
+				class="col-lg-4 col-sm-12 orange-blue-contrast d-inline justify-content-center mb-5">
+				<h5>Programming Experience:</h5>
+				<p>&emsp;At Missouri State, the major computer science classes
+					focus on Python and C++. From those classes, I have gained
+					experience in object-oriented programming and using files. I have
+					also gained experience in front-end and back-end web development
+					both in class and practice. I have experience in using the
+					bootstrap framework and using app's like Squarespace and Wordpress.
+					While I have not taken an official class on data analysis, I am
+					working towards getting certified on Linkedin Learning in data
+					analysis. I am also taking a course in machine learning, and
+					courses over Go and Rust. To the right I have the certification I
+					have received via HackerRank.</p>
+				<div class="my-5 d-flex justify-content-center">
+					<a href="gallery.html"><button>Click here to look at
+							some of my personal projects!</button></a>
+				</div>
 			</div>
 			<!-- Certificates -->
-			<div class="col-8">
+			<div class="col-lg-6 col-sm-12 mb-5">
 				<div id="carouselExampleControls"
 					class="carousel slide carousel-fade bg-dark" data-ride="carousel">
 					<div class="carousel-inner">
@@ -123,26 +149,21 @@
 						<!-- Content -->
 						<div class="carousel-item active justify-content-center d-flex"
 							data-interval="3000">
-							<div class="w-50">
-								<img src="img/certification/problem_solving_basic.jpg"
-									class="div-border" class="img-responsive" alt="Problem Solving" />
-							</div>
+							<img
+								src="img/certification/problem_solving_basic certificate.jpg"
+								class="w-100" alt="Problem Solving Basic" />
 
 						</div>
 						<div class="carousel-item justify-content-center d-flex"
 							data-interval="3000">
-							<div class="w-50">
-								<img src="img/certification/python_basic.jpg" class="div-border"
-									alt="Python Basic" />
-							</div>
+							<img src="img/certification/python_basic certificate.jpg"
+								class="w-100" alt="Python Basic" />
 
 						</div>
 						<div class="carousel-item justify-content-center d-flex"
 							data-interval="3000">
-							<div class="w-50">
-								<img src="img/certification/sql_basic.jpg" class="div-border"
-									alt="SQL Basic" />
-							</div>
+							<img src="img/certification/sql_basic certificate.jpg"
+								class="w-100" alt="SQL Basic" />
 
 						</div>
 						<!-- Icons -->
@@ -161,9 +182,11 @@
 		</div>
 	</div>
 	<!-- Footer -->
-	<div class="container p-5 top">
+	<div class="w-100 top" style="height: 1px;"></div>
+	<div class="container p-5">
+
 		<div class="row">
-			<div class="container orange-blue-contrast col text-center">
+			<div class="orange-blue-contrast col-6 text-center">
 				<p>
 					<strong>Contact Me</strong>
 				</p>
@@ -171,27 +194,29 @@
 				<p>Email: shane.valdes11@gmail.com</p>
 				<p>School: scv566s@missouristate.edu</p>
 			</div>
-			<div class="container col text-center">
-				<strong>Social Accounts</strong>
-				<div class="container row px-1">
-					<div class="col">
-						<a href="https://www.instagram.com/shane.valdeseo/?next=%2F">
-							<img src="img/logos/instagram-logo.jpg" class="w-50"
-							alt="insta link" />
+			<div class="col-6 text-center">
+				<div class="row justify-content-center">
+					<strong>Social Accounts</strong>
+				</div>
+				<div class="row px-1 justify-content-center">
+					<div class="col-lg-6 col-sm-12">
+						<a href="https://www.instagram.com/shane.valdeseo/?next=%2F"
+							target="_blank"> <img src="img/logos/instagram-logo.jpg"
+							class="w-50" alt="insta link" />
 						</a>
 					</div>
-					<div class="col">
+					<div class="col-lg-6 col-sm-12">
 						<a
-							href="https://missouristate.joinhandshake.com/stu/users/33625430"><img
-							src="img/logos/handshake-logo.jpg" class="w-50"
-							alt="handshake link" /></a>
-
+							href="https://missouristate.joinhandshake.com/stu/users/33625430"
+							target="_blank"><img src="img/logos/handshake-logo.png"
+							class="w-50" alt="handshake link" /></a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- End Footer -->
+
 
 </body>
 
