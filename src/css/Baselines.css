@@ -1,0 +1,16 @@
+
+.img-responsive {
+    max-width:100%;
+    overflow: hidden;
+}
+
+.typography-base {
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.paragraph-base {
+    margin: 0px 10px 10px 10px;
+    display: inline-block;
+}

@@ -1,0 +1,92 @@
+
+
+.item-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+    opacity: 80%;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+}
+
+.circle {
+    background-color: black;
+    height: 100%;
+}
+
+.item-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.wheel-image {
+    position:absolute;
+    
+    z-index: 1;
+}
+
+/* Current image rotates out to the left */
+.fading {
+    transform: rotate(-70deg) translate(10%, 10%);
+    opacity: 0;
+}
+
+/* Next image rotates in from the right */
+.hidden {
+    transform: rotate(70deg) translate(-10%, -10%);
+    opacity: 0;
+}
+
+/* Active image sits normally */
+.active {
+    transform: rotate(0);
+    opacity: 1;
+}
+
+.wheel-container {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width:100%
+}
+
+.wheel-item{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    transform-origin: right center; /* Set anchor point on the right */
+    overflow: hidden;
+}
+
+.wheel{
+    position:relative;
+    display:flex;
+    height:100%;
+    width:100%;
+}
+
+.button-container {
+    width:100%;
+    justify-items: center;
+}
+
