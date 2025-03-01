@@ -38,7 +38,7 @@ export default function Footer() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Grid2 container>
-            <Grid2 size={6}
+            <Grid2 item size={{ xs:12, md:6}}
             alignItems="center">
                 <Container alignItems="center">
                     <Typography
@@ -57,7 +57,7 @@ export default function Footer() {
                     </Typography>
                 </Container>
             </Grid2>
-            <Grid2 size={6}>
+            <Grid2 item size={{ xs:12, md:6}}>
                 <Typography
                   class='typography-base'
                   variant='h2'>

@@ -7,7 +7,7 @@ function Home() {
 
     return (
         <Grid2 container spacing={4} alignItems={'center'}>
-            <Grid2 size={6}>
+            <Grid2 item size={{ xs:12, md:6}}>
                 <Carousel>
 
                     <img
@@ -28,7 +28,7 @@ function Home() {
                         alt="placeholder" />
                 </Carousel>
             </Grid2>
-            <Grid2 size={6}>
+            <Grid2 item size={{ xs:12, md:6}}>
                 <Card>
                     <Typography class='typography-base' variant='h1'>
                         About Me
@@ -46,7 +46,7 @@ function Home() {
                     </Typography>
                 </Card>
             </Grid2>
-            <Grid2 size={12}>
+            <Grid2 item size={12}>
                 <Carousel title={'My Professional Philosophy'}>
                     <Typography class='typography-base'>
                         Be willing to teach and work with others

@@ -15,7 +15,7 @@ export default function Academics() {
 
     return (
         <Grid2 container spacing={4}>
-            <Grid2 size={6}>
+            <Grid2 item size={{ xs:12, md:6}}>
                 <Card >
                     <Typography class='typography-base' variant="h1">
                         Enrollment Details:
@@ -58,7 +58,7 @@ export default function Academics() {
 
                 </Card>
             </Grid2>
-            <Grid2 size={6}>
+            <Grid2 item size={{ xs:12, md:6}}>
                 <Wheel title={"Programming Skills"}>
                     <WheelItem text={"Python - Intermediate"} image={"/language logos/python_logo.png"} />
                     <WheelItem text={"SQL - Intermediate"} image={"/language logos/SQL_logo.png"} />
@@ -66,9 +66,6 @@ export default function Academics() {
                     <WheelItem text={"C++ - Beginner"} image={"/language logos/C++_logo.png"} />
 
                     <WheelItem text={"Javascript - Beginner"} image={"/language logos/JS_logo.png"} />
-
-
-
                 </Wheel>
                 {/*
                 <Card>
@@ -99,7 +96,7 @@ export default function Academics() {
                 */}
             </Grid2>
 
-            <Grid2 size={5}>
+            <Grid2 item size={{ xs:12, md:6}}>
                 <Card>
                     <Typography class='typography-base' variant='h2'>Relevent Experience:</Typography>
                     <Typography class='paragraph-base'>
@@ -116,7 +113,7 @@ export default function Academics() {
 
                 </Card>
             </Grid2>
-            <Grid2 size={7}>
+            <Grid2 item size={{ xs:12, md:6}}>
                 <Carousel>
                     <img
                         src="/certificates/career-essentials.jpg"

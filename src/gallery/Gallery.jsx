@@ -8,7 +8,7 @@ function Gallery() {
     return (
         <Container>
             <Grid2 container spacing={4} alignItems={'center'}>
-                <Grid2 size={6}>
+                <Grid2 item size={{ xs:12, md:6}}>
                     <Typography>
                         Growing up, I learned a lot about content creation and got to see the production of many live TV news segments, as my mom was a long-time former TV news producer at KTVI-TV in St. Louis.
                         <br /> <br />
@@ -17,7 +17,7 @@ function Gallery() {
                         I believe that being able to code and being able to create content is an important skill in today's world.
                     </Typography>
                 </Grid2>
-                <Grid2 size={6}>
+                <Grid2 item size={{ xs:12, md:6}}>
                     <Container>
                         <img src="/gallery/camera.jpg"
                             class='img-responsive'
@@ -38,7 +38,7 @@ function Gallery() {
                 />
 
             </Carousel>
-            <Grid2 size={12}>
+            <Grid2 item size={12}>
                 <Carousel title={'Project Gallery'}>
                     <Navbutton
                         header={'Portfolio'}

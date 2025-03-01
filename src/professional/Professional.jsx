@@ -6,7 +6,7 @@ import Resume from "../components/Resume";
 function Professional() {
     return (
         <Grid2 container spacing={4} alignItem={'center'}>
-            <Grid2 size={6}>
+            <Grid2 item size={{ xs:12, md:6}}>
                 <Typography class='typography-base' variant='h1'>
                 Professional Statement
                 </Typography>
@@ -20,7 +20,7 @@ function Professional() {
                 </Typography>
 
             </Grid2>
-            <Grid2 size={6}>
+            <Grid2 item size={{ xs:12, md:6}}>
                 <Resume />
 
             </Grid2>

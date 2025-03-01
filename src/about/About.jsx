@@ -6,7 +6,7 @@ function About() {
 
     return (
         <Grid2 container spacing={4} alignItems={'center'}>
-            <Grid2 size={6}>
+            <Grid2 item size={{ xs:12, md:6}}>
                 <Card>
                     <Typography class='typography-base' variant='h1'>
                         Personality Test
@@ -20,7 +20,7 @@ function About() {
                 </Card>
 
             </Grid2>
-            <Grid2 size={6}>
+            <Grid2 item size={{ xs:12, md:6}}>
                 <Carousel>
                     <Highfive
                         title={"Coach"}
@@ -50,7 +50,7 @@ function About() {
 
                 </Carousel>
             </Grid2>
-            <Grid2 size={6}>
+            <Grid2 item size={{ xs:12, md:6}}>
                 <Container>
                     <img
                         src="/personal photos/baseball.jpg"
@@ -59,7 +59,7 @@ function About() {
                 </Container>
 
             </Grid2>
-            <Grid2 size={6}>
+            <Grid2 item size={{ xs:12, md:6}}>
                 <Card>
 
 
@@ -81,7 +81,7 @@ function About() {
                     </Typography>
                 </Card>
             </Grid2>
-            <Grid2 size={6}>
+            <Grid2 item size={{ xs:12, md:6}}>
                 <Card>
 
                     <Typography class='typography-base' variant='h1'>
@@ -98,7 +98,7 @@ function About() {
                 </Card>
 
             </Grid2>
-            <Grid2 size={6}>
+            <Grid2 item size={{ xs:12, md:6}}>
                 <Container>
                     <img
                         src="/personal photos/lab-photo.jpg"
